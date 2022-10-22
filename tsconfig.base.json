@@ -15,11 +15,11 @@
         "skipDefaultLibCheck": true,
         "baseUrl": ".",
         "paths": {
+            "@env/*": ["environments/*"],
             "@vaas/orders": ["libs/orders/src/index.ts"],
             "@vaas/products": ["libs/products/src/index.ts"],
             "@vaas/ui": ["libs/ui/src/index.ts"],
-            "@vaas/users": ["libs/users/src/index.ts"],
-            "@env/*": ["environments/*"]
+            "@vaas/users": ["libs/users/src/index.ts"]
         }
     },
     "exclude": ["node_modules", "tmp"]

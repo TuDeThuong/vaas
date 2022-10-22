@@ -17,7 +17,7 @@
                 <form [formGroup]="form">
                     <div class="card">
                         <div class="formgrid grid">
-                            <div class="field col">
+                            <div class="field col-4">
                                 <label for="name">Name</label>
                                 <input
                                     formControlName="name"
@@ -27,7 +27,7 @@
                                 />
                                 <small *ngIf="categoryForm.name.invalid && isSubmitted" class="p-error">Name is required</small>
                             </div>
-                            <div class="field col">
+                            <div class="field col-4">
                                 <label for="icon">Icon</label>
                                 <input
                                     formControlName="icon"
@@ -37,7 +37,7 @@
                                 />
                                 <small *ngIf="categoryForm.icon.invalid && isSubmitted" class="p-error">Iocn is required</small>
                             </div>
-                            <div class="field col">
+                            <div class="field col-4">
                                 <label for="color">Color</label> <br />
                                 <p-colorPicker formControlName="color"></p-colorPicker>
                             </div>
